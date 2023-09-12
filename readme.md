@@ -16,7 +16,7 @@ Created with FastAPI and Uvicorn.
 2. Copy all files from the repository to directory You created
 #### Instalation with Git:
 In command line execute :
->git clone https://gitlab.portal.futurecollars.com/michal_lorenc/Caesar-cipher-API.git
+>git clone https://github.com/Michzlor/Caesar-cipher-API.git
 
 It will create a directory named Caesar-cipher-API in your active directory(default: C/Users/username)
 
