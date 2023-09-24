@@ -1,6 +1,6 @@
+import json
 from typing import Annotated
 from Caesar_cipher import encrypt, decrypt, generate_html_response, crack
-
 from fastapi.responses import HTMLResponse
 from fastapi import FastAPI, Query
 
@@ -27,5 +27,7 @@ def decryption(msg: str, key: Annotated[int, Query(title="key for enncryption", 
 @app.get("/crack/")
 def cracking(msg: str):
     lst = crack(msg)
+    output = {}
     for idx, messege in enumerate(lst):
-        print(f"Index: {idx}--{messege}")
+        output[idx] = messege.strip()
+    return output

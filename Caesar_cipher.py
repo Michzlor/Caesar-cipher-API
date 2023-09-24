@@ -74,7 +74,7 @@ def generate_html_response():
                 
                 <h1>Decryption</h1>
                 To decrypt a message without knowing the key go to: <b>http://127.0.0.1:8000/crack/?msg=YOUR MESSAGE GOES HERE</b><br>
-                exemple <a href="http://127.0.0.1:8000/crack/?msg=fgh>http://127.0.0.1:8000/crack/?msg=fgh</a>
+                exemple <a href="http://127.0.0.1:8000/crack/?msg=fgh">http://127.0.0.1:8000/crack/?msg=fgh</a>
         </body>
     </html>
     """
